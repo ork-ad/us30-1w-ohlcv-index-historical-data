@@ -1,6 +1,6 @@
 # US30 1w OHLCV Index Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-104_rows-blue)](https://ork.ad/) [![Updated](https://img.shields.io/badge/weekly_update-every_Sunday-green)](https://ork.ad/) [![Full data on ork.ad](https://img.shields.io/badge/download-ork.ad-orange)](https://ork.ad/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-2_943_rows-blue)](https://ork.ad/) [![Updated](https://img.shields.io/badge/weekly_update-every_Sunday-green)](https://ork.ad/) [![Full data on ork.ad](https://img.shields.io/badge/download-ork.ad-orange)](https://ork.ad/)
 
 ### → [**Download the full US30 dataset on ork.ad**](https://ork.ad/)
 
@@ -24,11 +24,11 @@
 - **Ultra high-quality 1w OHLCV** for **Dow Jones 30** (Stock index)
 - **Global cash and extended index sessions — Asia, Europe and US coverage, not US-hours only**
 - **Clean CSV schema** — `time, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`1w`) · **13 timeframes** on [ork.ad](https://ork.ad/) · **104** `1w` rows in the full archive
+- **Free evaluation sample** on GitHub (`1w`) · **13 timeframes** on [ork.ad](https://ork.ad/) · **2,943** `1w` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [ork.ad](https://ork.ad/) every **Sunday**; GitHub `1w` sample updated in sync
 
-> **Sample on GitHub** · `US30_1w.csv` (105 rows, `2024-07-01` → `2026-06-29`). **Full archive on [ork.ad](https://ork.ad/)** — **104** `1w` rows (~0.01 MB), **13 timeframes** (``1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W``), `2024-07-08` → `2026-06-29`.
+> **Sample on GitHub** · `US30_1w.csv` (105 rows, `2024-07-01` → `2026-06-29`). **Full archive on [ork.ad](https://ork.ad/)** — **2,943** `1w` rows (~0.16 MB), **13 timeframes** (``1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W``), `1970-02-09` → `2026-06-29`.
 
 ## Download sample
 
@@ -44,9 +44,9 @@ Interactive chart & stats: **[https://ork-ad.github.io/us30-1w-ohlcv-index-histo
 |---|--:|---|
 | Instrument | Dow Jones 30 · Stock index | Dow Jones 30 · Stock index |
 | Timeframes | `1w` (sample) | **13** — `1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W` |
-| 1w rows | 105 | **104** |
-| Size | 0.01 MB | ~0.01 MB |
-| Period | `2024-07-01` → `2026-06-29` | `2024-07-08` → `2026-06-29` |
+| 1w rows | 105 | **2,943** |
+| Size | 0.01 MB | ~0.16 MB |
+| Period | `2024-07-01` → `2026-06-29` | `1970-02-09` → `2026-06-29` |
 | File | `US30_1w.csv` | ZIP on [ork.ad](https://ork.ad/) |
 | Updates | Weekly (Sunday) — GitHub sample | Weekly (Sunday) — all timeframes |
 
@@ -73,21 +73,21 @@ First and latest rows from the GitHub sample **`US30_1w.csv`**:
 
 | time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2024-07-01T00:00:00Z | 39191.422 | 39504.185 | 39042.96 | 39353.494 | 902145.0 |
-| 2024-07-08T00:00:00Z | 39353.494 | 40305.253 | 39174.512 | 40108.911 | 1320806.0 |
-| 2024-07-15T00:00:00Z | 40108.911 | 41424.094 | 40086.411 | 40425.824 | 2042505.0 |
-| 2024-07-22T00:00:00Z | 40425.824 | 40793.578 | 39835.218 | 40733.247 | 1887177.0 |
-| 2024-07-29T00:00:00Z | 40733.247 | 41248.962 | 39356.164 | 39507.065 | 2726764.0 |
+| 2024-07-01T00:00:00Z | 39218.37 | 39507.34 | 39046.08 | 39374.0 | 904454.0 |
+| 2024-07-08T00:00:00Z | 39374.0 | 40308.48 | 39177.65 | 40064.36 | 1315863.0 |
+| 2024-07-15T00:00:00Z | 40064.36 | 41427.41 | 40064.36 | 40297.59 | 2041224.0 |
+| 2024-07-22T00:00:00Z | 40297.59 | 40796.84 | 39838.4 | 40665.73 | 1890382.0 |
+| 2024-07-29T00:00:00Z | 40665.73 | 41252.26 | 39359.32 | 39633.24 | 2719524.0 |
 
 **Last rows**
 
 | time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
 | time | open | high | low | close | volume |
-| 2026-06-01T00:00:00Z | 51055.261 | 51756.248 | 50579.856 | 50814.858 | 1940837.0 |
-| 2026-06-08T00:00:00Z | 50814.858 | 51567.976 | 49719.277 | 51516.475 | 4616953.0 |
-| 2026-06-15T00:00:00Z | 51516.475 | 52281.223 | 51308.773 | 51363.024 | 2365717.0 |
-| 2026-06-22T00:00:00Z | 51363.024 | 52722.407 | 51300.023 | 52062.0 | 3232682.0 |
+| 2026-06-01T00:00:00Z | 51021.4 | 51760.39 | 50679.78 | 50706.03 | 2493373.0 |
+| 2026-06-08T00:00:00Z | 50756.3 | 51415.75 | 49723.25 | 51225.63 | 5679470.0 |
+| 2026-06-15T00:00:00Z | 51209.24 | 52285.41 | 51209.24 | 51462.9 | 2906338.0 |
+| 2026-06-22T00:00:00Z | 51462.9 | 52726.62 | 51304.0 | 51852.93 | 4053959.0 |
 
 ## Schema
 
@@ -145,9 +145,9 @@ print(pf.stats())
 
 ## Download full data
 
-The complete **US30** archive on **[ork.ad](https://ork.ad/)** includes **13 OHLCV timeframes** (`1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W`) — **104** rows at `1w`, plus all other timeframes in the same ZIP.
+The complete **US30** archive on **[ork.ad](https://ork.ad/)** includes **13 OHLCV timeframes** (`1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W`) — **2,943** rows at `1w`, plus all other timeframes in the same ZIP.
 
 **[→ Get the full US30 dataset on ork.ad](https://ork.ad/)**
 
 ---
-*GetData · US30 1w OHLCV sample on GitHub · Full historical data on [ork.ad](https://ork.ad/) · 2026-07-04 UTC*
+*GetData · US30 1w OHLCV sample on GitHub · Full historical data on [ork.ad](https://ork.ad/) · 2026-07-06 UTC*
